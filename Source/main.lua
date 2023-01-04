@@ -15,8 +15,8 @@ local function initialize()
 	playerInstance:add()
 	
 	local name = playerInstance.className --name == "Wizard"
-	local isGiant = playerInstance:isA(Giant) -- false
-	local isWizard = playerInstance:isA(Wizard) -- true
+	local isGiant = playerInstance:isa(Giant) -- false
+	local isWizard = playerInstance:isa(Wizard) -- true
 end
 
 initialize()
