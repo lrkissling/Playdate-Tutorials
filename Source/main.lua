@@ -4,7 +4,7 @@ import "CoreLibs/sprites"
 import "CoreLibs/tiemr"
 
 local pd <const> = playdate
-local gfx <const> = pd.grahics
+local gfx <const> = pd.graphics
 
 local function initialize()
 end
