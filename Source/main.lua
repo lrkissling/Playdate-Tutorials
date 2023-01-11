@@ -4,7 +4,7 @@ import "CoreLibs/sprites"
 import "CoreLibs/timer"
 
 import "player"
-import "enemySpawner"
+import "Enemy/enemySpawner"
 import "scoreDisplay"
 import "screenShake"
 
